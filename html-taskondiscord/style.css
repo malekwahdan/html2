@@ -1,0 +1,39 @@
+body{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    height: 1800px;
+    width: 700px;
+    padding: 7px;
+    margin: 0 auto;
+}
+img{
+    height: 200px;
+    margin-left: 40px;
+    width: 300px;
+}
+.p1{
+    margin-top: 0px; margin-left: 40px; font-size: 20px
+}
+.s1{text-decoration: underline;
+    text-decoration-style: dotted;
+}
+table,tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+table{
+    height: 300px;
+    width: 150px;
+}
+.p2{
+    margin-left: 40px;
+    margin-top: 0px;
+}
+.d2{
+    font-size: 20px;
+}
+textarea{
+    height: 160px;
+    width: 200px;
+}

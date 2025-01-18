@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(138, 43, 226);
+            color: white;
+            font-family: 'Brush Script MT', cursive;
+            font-size: 11px;
+        }
+        .main-container{
+            background-color: rgb(53, 1, 101);
+            height: 540px;
+            width: 350px;
+            padding: 14px 14px 14px 14px;
+            font-size: 11px;
+            margin: 10px auto;
+        }
+        input{
+            width: 320px;
+            margin: 3px 0 8px 0;
+            font-size: 11px;
+        }
+        #rad{
+            width: 10px;
+            font-size: 11px;
+        }
+        ::placeholder{
+            font-family: 'Brush Script MT', cursive;
+            font-size: 11px;
+        }
+        select{
+            width: 350px;
+            font-family:  'Brush Script MT', cursive;
+            margin-top: 7px;
+            font-size: 11px;
+        }
+        #check{
+            width: 12px;
+        }
+        #check-lab{
+            margin-left: 4px;
+        }
+        textarea{
+            width: 344px;
+            height: 50px;
+            margin-top: 4px;
+        }
+        #sub-btn{
+            background-color: rgb(140, 217, 140);
+            width: 350px;
+            border: none;
+            height: 25px;
+            margin-top: 6px;
+            cursor: pointer;
+        }
+        #head-con{
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="head-con"><h1 class="head2">Amman Coding Academy Survey Form</h1>
+        <p class="head2">Thank you for taking the time to help</p></div>
+    <div class="main-container">
+        <form action="">
+  
+    <label  for="">Name</label>
+    <input placeholder="Enter your name" type="text">
+    <labelfor="">Email</label>
+    <input placeholder="Enter your Email" type="email">
+    <label for="">Age <small>(optional)</small></label>
+    <input placeholder="Age" type="text">
+    <label for="">How did you like my survey</label>
+    <input placeholder="How did you like my survey" type="text">
+    <label for="">would you recommend my pen to a friend?</label>
+            <br>
+            <br>
+            <input name="recommend" id="rad" type="radio">
+            <label for="">Definitly</label>
+            <br>
+            <input name="recommend" id="rad" type="radio">
+            <label for="">Maybe</label>
+            <br>
+            <input name="recommend" id="rad" type="radio">
+            <label for="">Not sure</label>
+            <br>
+            <br>
+            <label id="flab" for="">What is your favorite feature codepen?</label>
+            <select name="" id="">
+                <option  value="">Select an option</option>
+                <option  value="">anyone can edit front-end</option>
+                <option  value="">quicker debugging.</option>
+            </select>
+            <br>
+            <label for="">What would you like to see inproved in my survet? <small>(check all that apply)</small></label>
+            <input id="check" type="checkbox"><label id="check-lab" for="">CSS needs to more complex</label>
+            <br>
+            <input id="check" type="checkbox"><label id="check-lab" for="">Use some javascript</label>
+            <br>
+            <input id="check" type="checkbox"><label id="check-lab" for="">No changes required</label>
+            <br>
+            <label for="">Any comments or suggestions?</label>
+            <br>
+            <textarea placeholder="Enter your comment here...." name="" id=""></textarea>
+            <br>
+            <input id="sub-btn" type="submit">
+        </form>
+    </div>
+</body>
+</html>
